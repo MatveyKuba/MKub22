@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <button id="open_pop_up" class="enter_button" type="button">Войти</button>
+    </div>
+    <div class="pop_up" id="pop_up">
+        <div class="pop_up_container">
+            <div class="pop_up_body" id="pop_up_body">
+                <p>Форма входа</p>
+                <form id="pop_ups">
+                    <input type="login" name="pop_name" id="login" required placeholder="Логин">
+                    <input type="password" name="pop_phone" required id="password" placeholder="Пароль">
+                    <button id="submit_button" type="submit" name="submit1" value="Войти">ВОЙТИ</button>
+                </form>
+                <div class="pop_up_close" id="pop_up_close">&#10006</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
