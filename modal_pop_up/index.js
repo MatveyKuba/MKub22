@@ -10,12 +10,8 @@ function open() {
 }
 
 openPopUpButton.addEventListener('click', () => {
-    if (openPopUpButton.textContent === 'Выйти'){
-        location.reload();
-    } else if (openPopUpButton.textContent === 'Войти') {
-        open()
-    }
-});
+    popUp.classList.add('open')
+})
 
 closePopUpButton.addEventListener('click', () => {
     popUp.classList.remove('open');
@@ -30,3 +26,4 @@ submitButton.addEventListener('click', (e) => {
         alert('Неверный логин или пароль. Попробуйте еще раз')
     }
 })
+
