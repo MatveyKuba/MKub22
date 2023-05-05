@@ -1,0 +1,41 @@
+{
+    "name": "my-react-app",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "json-server": "json-server-auth --watch db.json --port 3001 -r routes.json",
+        "start": "PORT=3001 react-scripts start",
+        "lint": "eslint --fix --ext .ts,.tsx ./src"
+    },
+    "dependencies": {
+        "axios": "^1.4.0",
+        "json-server": "^0.17.3",
+        "mobx": "^6.9.0",
+        "mobx-react-lite": "^3.4.3",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-icons": "^4.7.1",
+        "react-router-dom": "^6.11.0",
+        "sass": "^1.62.1"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.5",
+        "@types/react-dom": "^18.2.3",
+        "@typescript-eslint/eslint-plugin": "^5.59.2",
+        "@vitejs/plugin-react": "^3.1.0",
+        "eslint": "^8.39.0",
+        "eslint-config-standard-with-typescript": "^34.0.1",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-n": "^15.7.0",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-react": "^7.32.2",
+        "json-server-auth": "^2.1.0",
+        "prettier": "2.8.8",
+        "typescript": "^5.0.4",
+        "vite": "^4.1.0"
+    }
+}

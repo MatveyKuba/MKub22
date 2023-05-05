@@ -1,0 +1,41 @@
+{
+    "todos": [
+        {
+            "isCompleted": true,
+            "description": "434",
+            "id": "2023-05-05T18:52:57.363Z"
+        },
+        {
+            "isCompleted": false,
+            "description": "34343",
+            "id": "2023-05-05T18:52:58.132Z"
+        },
+        {
+            "id": "2023-05-05T18:55:56.122Z",
+            "description": "2e23",
+            "isCompleted": false
+        }
+    ],
+    "users": [
+        {
+            "email": "kuba2@mail.ru",
+            "password": "$2a$10$Ij2xUCxC5dpXL.OjS.4/6.HcQyMTfaYv5D5ycMAgRRCwqqRaJXIk2",
+            "id": 1
+        },
+        {
+            "email": "kuba22@mail.ru",
+            "password": "$2a$10$komUd0S6YVZqSnp1oDDXdeTAvgqhGmIB7yLlzH3hcsk3GM6ytsm0O",
+            "id": 2
+        },
+        {
+            "email": "kubaa2@mail.ru",
+            "password": "$2a$10$flcGfMaEFQ8EWJ.Z3UNXaOsuJRwWAHDYTMO/gGFyCr.vHj0MJ./LO",
+            "id": 3
+        },
+        {
+            "email": "kuba222@mail.ru",
+            "password": "$2a$10$6dCMd8iWUhQ/IYLUvYf0Yu0RHBdrQ0KJjX1v4T9MAbTni1RdCAq/q",
+            "id": 4
+        }
+    ]
+}
