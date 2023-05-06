@@ -36,6 +36,21 @@
             "email": "kuba222@mail.ru",
             "password": "$2a$10$6dCMd8iWUhQ/IYLUvYf0Yu0RHBdrQ0KJjX1v4T9MAbTni1RdCAq/q",
             "id": 4
+        },
+        {
+            "email": "kubik2@mail.ru",
+            "password": "$2a$10$pSm7E5FrmsnHVTcynT/HPeP/YGhFpgD0tV3ZgqTl1B71ca9VG8tO6",
+            "id": 5
+        },
+        {
+            "email": "kubik22@mail.ru",
+            "password": "$2a$10$D6SOvxAq3Q2AMdyH7MyPbu.fDysD8dEewyUbC4YSN5A9z5ciMcEia",
+            "id": 6
+        },
+        {
+            "email": "kubik222@mail.ru",
+            "password": "$2a$10$VSIbsws7YVbeWEzVQnJIeu2mM4OXXOas5A9CIvn7/Zl8fm9BwegYm",
+            "id": 7
         }
     ]
 }

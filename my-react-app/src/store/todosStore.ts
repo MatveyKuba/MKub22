@@ -1,5 +1,5 @@
 import { makeObservable, observable, action, runInAction, toJS } from 'mobx'
-import axios, { AxiosResponse } from 'axios'
+import axios, { type AxiosResponse } from 'axios'
 import autorizationStore from './autorizationStore'
 import { type ITodos } from '../types/todos'
 import storageToken from '../components/storage-token'

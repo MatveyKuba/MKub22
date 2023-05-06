@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './App.scss'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import MainToDo from './components/todo/main-to-do'
+import MainToDo from './components/pages/main-to-do'
 import AuthPage from './components/pages/auth-page'
 import axios from 'axios'
 import { baseUrl } from './store/todosStore'

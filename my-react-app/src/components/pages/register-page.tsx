@@ -17,7 +17,6 @@ const RegisterPage = () => {
         if (response.data.accessToken) {
             autorizationStore.setIsAuthenticated(true)
         }
-        console.log(autorizationStore.isAuthenticated)
     }
     return (
         <div>
