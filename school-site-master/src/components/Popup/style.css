@@ -1,0 +1,97 @@
+.background-wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(45, 46, 50, 0.8);;
+  overflow-y: hidden;
+  top: 0;
+  z-index: 1;
+  -webkit-animation: fadein 0.1s;
+  -moz-animation: fadein 0.1s;
+  -ms-animation: fadein 0.1s;
+  -o-animation: fadein 0.1s;
+  animation: fadein 0.1s;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  background-color: white;
+  border-radius: 12px;
+  position: fixed;
+  max-width: 350px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-direction: column;
+  z-index: 2;
+  opacity: 1 ;
+  
+  -webkit-animation: popup 0.3s;
+  -moz-animation: popup 0.3s;
+  -ms-animation: popup 0.3s;
+  -o-animation: popup 0.3s;
+  animation: popup 0.3s;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 50px 50px 50px;
+  height: 300px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input[type='tel'] {
+  height: 50px;
+  width: 200px;
+  border: 1px solid #2d2e32;
+  border-radius: 10px;
+  font-size: 21px;
+  padding: 0 15px 0 15px;
+}
+
+input[type='tel']:focus {
+  outline: none;
+}
+
+input {
+  margin-bottom: 25px;
+}
+.modal img {
+  cursor: pointer;
+  width: 35px;
+  position: absolute;
+  top: 25px;
+  right: 15px;
+}
+
+.modal h3 {
+  margin: 25px;
+}
+
+@keyframes popup {
+  0%{
+    transform: scale(0.9);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+@keyframes fadein {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

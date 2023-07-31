@@ -1,0 +1,13 @@
+footer {
+  background-color: #242424;
+  
+}
+
+footer span {
+  display: block;
+  color: #A3A0A0;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 0 10px 30px;
+}
+
